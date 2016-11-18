@@ -1,8 +1,9 @@
 body {
+    align-items: center;
 	background-color: #312f5c;
 	color: #dbdbdb;
 }
 
-div {
+div.asciiart {
 	align-content: center;
 }
