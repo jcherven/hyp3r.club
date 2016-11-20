@@ -1,6 +1,8 @@
 * {
     /*border: 1px solid red !important;*/
     background-color: #060177;
+    font-family: Helvetica, Sans-Serif;
+    color: #dbdbdb;
 }
 
 * {
@@ -13,6 +15,11 @@
 @media only screen and (max-width: 300px) {
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -21,7 +28,7 @@
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -47,6 +54,9 @@
 
 .col-6 {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .col-7 {
