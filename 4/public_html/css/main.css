@@ -1,8 +1,9 @@
 * {
     /*border: 1px solid red !important;*/
     background-color: #060177;
-    font-family: Helvetica, Sans-Serif;
+    font-family: Arial, Sans-Serif;
     color: #dbdbdb;
+
 }
 
 * {
@@ -18,6 +19,14 @@
 img {
     max-width: 100%;
     height: auto;
+}
+
+a:link, a:visited {
+    color: #dbdbdb;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .grid {
