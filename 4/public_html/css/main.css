@@ -13,6 +13,13 @@
     box-sizing: border-box;
 }
 
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 @media only screen and (max-width: 300px) {
 }
 
@@ -23,7 +30,7 @@ img {
 
 a:link, a:visited {
     color: #dbdbdb;
-    padding: 14px 25px;
+    padding: 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
