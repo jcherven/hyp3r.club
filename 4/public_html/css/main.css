@@ -13,11 +13,12 @@
     box-sizing: border-box;
 }
 
-#social-media {
+}
+
+p {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 @media only screen and (max-width: 300px) {
@@ -30,10 +31,14 @@ img {
 
 a:link, a:visited {
     color: #dbdbdb;
-    padding: 14px;
+    /*padding: 9px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+iframe {
+        padding: 10px;
 }
 
 .grid {
